@@ -1,11 +1,12 @@
 READ x
 In: LOAD x
+WRITE x
 SUB 1
 STORE x
-BRNEG Out
-WRITE x
+BRZNEG Out
 LOAD x
-SUB 1
 BR In
 Out: STOP
 x 0
+
+

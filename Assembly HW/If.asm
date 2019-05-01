@@ -1,15 +1,16 @@
 READ x
-In: LOAD x
-SUB y
-BRZNEG End
 LOAD x
-SUB z
+STORE T1
+SUB 5
+STORE x
+BRNEG End
+WRITE 1 
+LOAD x
+SUB 10
 BRZNEG End
-WRITE 1
+WRITE w
 End: STOP
 x 0
-y 5
-z 10
 w 1
-
+T1 0
 

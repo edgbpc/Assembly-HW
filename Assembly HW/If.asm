@@ -5,8 +5,7 @@ BRZNEG End
 LOAD x
 SUB z
 BRZNEG End
-LOAD x
-WRITE x
+WRITE 1
 End: STOP
 x 0
 y 5

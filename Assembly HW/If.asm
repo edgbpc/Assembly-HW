@@ -1,0 +1,16 @@
+READ x
+In: LOAD x
+SUB y
+BRZNEG End
+LOAD x
+SUB z
+BRZNEG End
+LOAD x
+WRITE x
+End: STOP
+x 0
+y 5
+z 10
+w 1
+
+

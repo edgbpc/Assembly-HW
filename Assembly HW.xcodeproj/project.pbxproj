@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3FF22CF22790C490083F4CE /* problem1.asm in Sources */ = {isa = PBXBuildFile; fileRef = C3FF22CE22790C490083F4CE /* problem1.asm */; };
+		C3030D65227920F70044D034 /* loop.asm in Sources */ = {isa = PBXBuildFile; fileRef = C3030D64227920F70044D034 /* loop.asm */; };
+		C3030D67227921110044D034 /* If.asm in Sources */ = {isa = PBXBuildFile; fileRef = C3030D66227921110044D034 /* If.asm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3030D64227920F70044D034 /* loop.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = loop.asm; sourceTree = "<group>"; };
+		C3030D66227921110044D034 /* If.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = If.asm; sourceTree = "<group>"; };
 		C3FF22C422790C320083F4CE /* Assembly HW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assembly HW"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF22CE22790C490083F4CE /* problem1.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = problem1.asm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		C3FF22C622790C320083F4CE /* Assembly HW */ = {
 			isa = PBXGroup;
 			children = (
-				C3FF22CE22790C490083F4CE /* problem1.asm */,
+				C3030D66227921110044D034 /* If.asm */,
+				C3030D64227920F70044D034 /* loop.asm */,
 			);
 			path = "Assembly HW";
 			sourceTree = "<group>";
@@ -118,7 +121,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FF22CF22790C490083F4CE /* problem1.asm in Sources */,
+				C3030D67227921110044D034 /* If.asm in Sources */,
+				C3030D65227920F70044D034 /* loop.asm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
